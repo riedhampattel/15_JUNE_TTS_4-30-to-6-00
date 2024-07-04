@@ -1,0 +1,16 @@
+Enter any positive number to continue and -1 to exit
+
+Output:-
+1)Enter any positive number to continue and -1 to exit = 4
+2)Enter any positive number to continue and -1 to exit = 5
+3)Enter any positive number to continue and -1 to exit = 6
+4)Enter any positive number to continue and -1 to exit = -4
+Please enter positive numbers only!
+5)Enter any positive number to continue and -1 to exit = 5
+6)Enter any positive number to continue and -1 to exit = -1
+
+Max number = 6
+Min number = 4
+Sum value  = 20
+Avg value  = 5
+Count      = 4
