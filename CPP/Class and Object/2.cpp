@@ -25,7 +25,7 @@ int main()
 	cin>>num1;
 	cout<<"\nEnter the value of num2 = ";
 	cin>>num2;
-	d1.data(num1,num2);
-	d1.display();
+	d1.setdata(num1,num2);
+	d1.getdata();
 	return 0;
 }
