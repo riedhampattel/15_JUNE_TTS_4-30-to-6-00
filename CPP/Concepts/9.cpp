@@ -27,25 +27,26 @@ class Student
 			}
 		}
 };
-//class Address
-//{
-//	string address;
-//	Student *ref;
-//	public :
-//		Address(string address,Student *ref)
-//		{
-//			this->address = address;
-//		}
-//		void display()
-//		{
-//			cout<<"\nName = "<<ref.name<<" -> ";
-//			cout<<"Address = "<<address;
-//		}
-//};
+class Address
+{
+	string address;
+	Student *ref;
+	public :
+		Address(string address,Student *ref)
+		{
+			this->address = address;
+			this->ref = ref;
+		}
+		void display()
+		{
+			cout<<"\nName = "<<ref->name<<" -> ";
+			cout<<"Address = "<<address;
+		}
+};
 int main()
 {
 	Student s(101,"Rahul",75,84);
-//	Address a("Ambawadi,Ahmedabad",&obj);
-	s.grade();
+	Address a("Ambawadi,Ahmedabad",&s);
+	a.display();
 	return 0;
 }
