@@ -1,3 +1,12 @@
+/*
+create trigger trigger_name
+after | before insert | update | delete
+on table_name
+for each row
+statement to be executed
+*/
+
+-- before insert trigger
 create table student
 (
 roll int not null unique,
@@ -23,6 +32,7 @@ insert into student(roll,name,maths,english) values(105,'Manan',38,23);
 
 select * from student;
 
+-- after insert trigger
 create table history1
 (
 id int not null unique,

@@ -29,26 +29,32 @@ insert into orders values(5,789653,102);
 
 select * from orders;
 
+-- natural join
 select * from users
 natural join 
 orders;
 
+-- left join
 select users.user_id,users.name,orders.order_id
 from users
 left join orders on users.user_id = orders.user_id;
 
+-- right join
 select users.user_id,users.name,orders.order_id
 from users
 right join orders on users.user_id = orders.user_id;
 
+-- cross join
 select * from users
 cross join
 orders;
 
+-- union
 select * from users
 union
 select * from orders;
 
+-- union all
 select * from users
 union all
 select * from orders;
