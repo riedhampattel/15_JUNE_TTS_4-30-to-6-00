@@ -1,0 +1,16 @@
+p,b,i
+{
+    color: aqua;
+    background-color: orange;
+}
+
+.para
+{
+    color: black;
+    background-color: orange;
+}
+*
+{
+    color: brown;
+    background-color: black;
+}
